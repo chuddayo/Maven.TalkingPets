@@ -6,11 +6,9 @@ public class Pet {
     public Pet(String name) {
         this.name = name;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -18,9 +16,7 @@ public class Pet {
     public String speak() {
         return "Gibberish";
     }
-
     public String toString() {
         return "\n" + name + " says " + speak();
     }
-
 }
